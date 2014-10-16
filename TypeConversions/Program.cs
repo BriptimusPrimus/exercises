@@ -43,15 +43,12 @@ namespace TypeConversions
 
         static void ProcessBytes()
         {
-            //byte b1 = 100;
-            //byte b2 = 250;
-            //byte sum = (byte)Add(b1, b2);
-
-            int myInt = 350;
-            byte myByte = (byte)myInt;
+            byte b1 = 100;
+            byte b2 = 250;
+            byte sum = (byte)Add(b1, b2);
 
             // sum should hold the value 350. However, we find the value 94!
-            Console.WriteLine("sum = {0}", myByte);
+            Console.WriteLine("sum = {0}", sum);
         }
 
     }
