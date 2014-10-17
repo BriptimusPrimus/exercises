@@ -337,6 +337,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDataAndMembers", "Sta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUtilityClass", "SimpleUtilityClass\SimpleUtilityClass.csproj", "{83DDE244-B6DA-453F-AEB0-EE8F3CA3A333}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApp", "EmployeeApp\EmployeeApp.csproj", "{7D29C7FF-3960-4713-910D-970D4FC564CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1767,6 +1769,16 @@ Global
 		{83DDE244-B6DA-453F-AEB0-EE8F3CA3A333}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{83DDE244-B6DA-453F-AEB0-EE8F3CA3A333}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{83DDE244-B6DA-453F-AEB0-EE8F3CA3A333}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7D29C7FF-3960-4713-910D-970D4FC564CC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1937,5 +1949,6 @@ Global
 		{C812014C-6087-4C3E-8A8E-35572C509A01} = {584FBB77-3862-48FA-83AB-3E8F5AD93604}
 		{28F87EA9-756C-442D-9B32-07B0A15EA706} = {584FBB77-3862-48FA-83AB-3E8F5AD93604}
 		{83DDE244-B6DA-453F-AEB0-EE8F3CA3A333} = {584FBB77-3862-48FA-83AB-3E8F5AD93604}
+		{7D29C7FF-3960-4713-910D-970D4FC564CC} = {584FBB77-3862-48FA-83AB-3E8F5AD93604}
 	EndGlobalSection
 EndGlobal
