@@ -349,6 +349,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 Understanding Inheritanc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritance", "BasicInheritance\BasicInheritance.csproj", "{08DEC66B-108C-4D31-996E-2F78F2A0B62E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{80901665-2D4A-46DF-8980-0969B5910566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1829,6 +1831,16 @@ Global
 		{08DEC66B-108C-4D31-996E-2F78F2A0B62E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{08DEC66B-108C-4D31-996E-2F78F2A0B62E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{08DEC66B-108C-4D31-996E-2F78F2A0B62E}.Release|x86.ActiveCfg = Release|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{80901665-2D4A-46DF-8980-0969B5910566}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2005,5 +2017,6 @@ Global
 		{1BA310F9-B8C6-4A06-9223-3A2A3B6C92EC} = {584FBB77-3862-48FA-83AB-3E8F5AD93604}
 		{959D921E-1DEF-4F40-BD64-3E5E00DF7EA9} = {584FBB77-3862-48FA-83AB-3E8F5AD93604}
 		{08DEC66B-108C-4D31-996E-2F78F2A0B62E} = {DF1DD83A-F885-4B18-9829-9423B23FE65D}
+		{80901665-2D4A-46DF-8980-0969B5910566} = {DF1DD83A-F885-4B18-9829-9423B23FE65D}
 	EndGlobalSection
 EndGlobal
