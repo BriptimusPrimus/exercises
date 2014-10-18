@@ -6,8 +6,24 @@ using System.Threading.Tasks;
 
 namespace Employees
 {
-    partial class Employee
+    public partial class Employee
     {
+        // BenefitPackage nests BenefitPackageLevel.
+        public class BenefitPackage
+        {
+            public enum BenefitPackageLevel
+            {
+                Standard, Gold, Platinum
+            }
+
+            // Assume we have other members that represent
+            // dental/health benefits, and so on.
+            public double ComputePayDeduction()
+            {
+                return 125.0;
+            }
+        }
+
         // Field data.
         protected string empName;
         protected int empID;
