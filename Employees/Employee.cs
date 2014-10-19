@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employees
 {
-    public partial class Employee
+    public abstract partial class Employee
     {
         // Contain a BenefitPackage object.
         protected BenefitPackage empBenefits = new BenefitPackage();
@@ -23,10 +23,10 @@ namespace Employees
         }
 
         // Methods.
-        public void GiveBonus(float amount)
+        public virtual void GiveBonus(float amount)
         { Pay += amount; }
 
-        public void DisplayStats()
+        public virtual void DisplayStats()
         {
             Console.WriteLine("Name: {0}", Name);
             Console.WriteLine("ID: {0}", ID);

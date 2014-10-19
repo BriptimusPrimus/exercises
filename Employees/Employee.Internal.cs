@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employees
 {
-    public partial class Employee
+    public abstract partial class Employee
     {
         // BenefitPackage nests BenefitPackageLevel.
         public class BenefitPackage

@@ -21,5 +21,11 @@ namespace Employees
 
         // Add back the default ctor
         public Manager() {}
+
+        public override void DisplayStats()
+        {
+            base.DisplayStats();
+            Console.WriteLine("Number of Stock Options: {0}", StockOptions);
+        }
     }
 }
