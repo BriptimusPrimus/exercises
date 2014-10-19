@@ -34,5 +34,13 @@ namespace Employees
 
             Console.ReadLine();
         }
+
+        static void GivePromotion(Employee emp)
+        {
+            // Increase pay...
+            // Give new parking space in company garage...
+
+            Console.WriteLine("{0} was promoted!", emp.Name);
+        }
     }
 }

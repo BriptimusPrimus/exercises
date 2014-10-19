@@ -353,6 +353,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Empl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{21629713-8329-4F41-A282-004FD1A20D4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOverrides", "ObjectOverrides\ObjectOverrides.csproj", "{98AAF718-6D91-4089-8F66-3255850A2830}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1853,6 +1855,16 @@ Global
 		{21629713-8329-4F41-A282-004FD1A20D4E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{21629713-8329-4F41-A282-004FD1A20D4E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{21629713-8329-4F41-A282-004FD1A20D4E}.Release|x86.ActiveCfg = Release|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{98AAF718-6D91-4089-8F66-3255850A2830}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2031,5 +2043,6 @@ Global
 		{08DEC66B-108C-4D31-996E-2F78F2A0B62E} = {DF1DD83A-F885-4B18-9829-9423B23FE65D}
 		{80901665-2D4A-46DF-8980-0969B5910566} = {DF1DD83A-F885-4B18-9829-9423B23FE65D}
 		{21629713-8329-4F41-A282-004FD1A20D4E} = {DF1DD83A-F885-4B18-9829-9423B23FE65D}
+		{98AAF718-6D91-4089-8F66-3255850A2830} = {DF1DD83A-F885-4B18-9829-9423B23FE65D}
 	EndGlobalSection
 EndGlobal
