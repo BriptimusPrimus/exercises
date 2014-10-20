@@ -379,6 +379,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumerator", "CustomE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumeratorWithYield", "CustomEnumeratorWithYield\CustomEnumeratorWithYield.csproj", "{C9E010EC-C0E7-4DF3-ACFE-4D966A9A61C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneablePoint", "CloneablePoint\CloneablePoint.csproj", "{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1989,6 +1991,16 @@ Global
 		{C9E010EC-C0E7-4DF3-ACFE-4D966A9A61C4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C9E010EC-C0E7-4DF3-ACFE-4D966A9A61C4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C9E010EC-C0E7-4DF3-ACFE-4D966A9A61C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2180,5 +2192,6 @@ Global
 		{C9B28C65-E14F-4B11-847A-6715BE2B8F2E} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 		{22EFABFA-2B0E-4C93-A7B0-3FB28200AC74} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 		{C9E010EC-C0E7-4DF3-ACFE-4D966A9A61C4} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
+		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 	EndGlobalSection
 EndGlobal
