@@ -381,6 +381,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumeratorWithYield",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneablePoint", "CloneablePoint\CloneablePoint.csproj", "{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparableCar", "ComparableCar\ComparableCar.csproj", "{C8BF2348-0036-4BEE-9932-9711D79E39F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2001,6 +2003,16 @@ Global
 		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2193,5 +2205,6 @@ Global
 		{22EFABFA-2B0E-4C93-A7B0-3FB28200AC74} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 		{C9E010EC-C0E7-4DF3-ACFE-4D966A9A61C4} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
+		{C8BF2348-0036-4BEE-9932-9711D79E39F2} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 	EndGlobalSection
 EndGlobal
