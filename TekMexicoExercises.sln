@@ -367,6 +367,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 Working with Interfaces"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneableExample", "ICloneableExample\ICloneableExample.csproj", "{CD62A623-4049-40B8-8628-4B0D7042518B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomInterface", "CustomInterface\CustomInterface.csproj", "{1AE7C14B-4D09-40FC-B990-4947F6A7434A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1917,6 +1919,16 @@ Global
 		{CD62A623-4049-40B8-8628-4B0D7042518B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CD62A623-4049-40B8-8628-4B0D7042518B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{CD62A623-4049-40B8-8628-4B0D7042518B}.Release|x86.ActiveCfg = Release|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2102,5 +2114,6 @@ Global
 		{1FF42E30-8F4F-4045-B3F5-F003DD7D3C9E} = {657F9171-FB2C-482C-BD73-1B77E4A8B5A7}
 		{E2888F60-CA0B-4B9F-B19D-C1BF52B53E12} = {657F9171-FB2C-482C-BD73-1B77E4A8B5A7}
 		{CD62A623-4049-40B8-8628-4B0D7042518B} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
+		{1AE7C14B-4D09-40FC-B990-4947F6A7434A} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 	EndGlobalSection
 EndGlobal
