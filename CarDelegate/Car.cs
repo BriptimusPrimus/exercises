@@ -66,7 +66,12 @@ namespace CarDelegate
                 else
                     Console.WriteLine("CurrentSpeed = {0}", CurrentSpeed);
             }
-        } 
+        }
+
+        public void UnRegisterWithCarEngine(CarEngineHandler methodToCall)
+        {
+            listOfHandlers -= methodToCall;
+        }
 
     }
 }
