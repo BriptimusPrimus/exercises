@@ -38,6 +38,33 @@ namespace IssuesWithNonGenericCollections
             {
                 Console.WriteLine(ex.Message);
             }
-        } 
+        }
+
+        static void WorkWithArrayList()
+        {
+            // Value types are automatically boxed when
+            // passed to a member requesting an object.
+            ArrayList myInts = new ArrayList();
+            myInts.Add(10);
+            myInts.Add(20);
+            myInts.Add(35);
+
+            // Unboxing occurs when a object is converted back to
+            // stack-based data.
+            int i = (int)myInts[0];
+
+            // Now it is reboxed, as WriteLine() requires object types!
+            Console.WriteLine("Value of your int: {0}", i);
+        }
+
+        static void ArrayListOfRandomObjects()
+        {
+            // The ArrayList can hold anything at all.
+            ArrayList allMyObjects = new ArrayList();
+            allMyObjects.Add(true);
+            allMyObjects.Add(new OperatingSystem(PlatformID.MacOSX, new Version(10, 0)));
+            allMyObjects.Add(66);
+            allMyObjects.Add(3.14);
+        }
     }
 }

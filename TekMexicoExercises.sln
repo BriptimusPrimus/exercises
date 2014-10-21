@@ -387,6 +387,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 Collections and Generics
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssuesWithNonGenericCollections", "IssuesWithNonGenericCollections\IssuesWithNonGenericCollections.csproj", "{6D9A0D1B-E51C-41FD-8EA2-83D21E218B07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithGenericCollections", "FunWithGenericCollections\FunWithGenericCollections.csproj", "{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2027,6 +2029,16 @@ Global
 		{6D9A0D1B-E51C-41FD-8EA2-83D21E218B07}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{6D9A0D1B-E51C-41FD-8EA2-83D21E218B07}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6D9A0D1B-E51C-41FD-8EA2-83D21E218B07}.Release|x86.ActiveCfg = Release|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2222,5 +2234,6 @@ Global
 		{EF827CAE-C0DE-40C7-8F31-3D3AE5A981D1} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 		{C8BF2348-0036-4BEE-9932-9711D79E39F2} = {FD89A38B-36F2-4BD8-9D78-BDF6786E703A}
 		{6D9A0D1B-E51C-41FD-8EA2-83D21E218B07} = {4F385B4B-8215-4DCF-9BC1-BA0823164474}
+		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12} = {4F385B4B-8215-4DCF-9BC1-BA0823164474}
 	EndGlobalSection
 EndGlobal
