@@ -12,10 +12,6 @@ namespace ComparableCar
     // the correct IComparer interface.
     class Car : IComparable
     {
-        // Property to return the PetNameComparer.
-        public static IComparer SortByPetName
-        { get { return (IComparer)new PetNameComparer(); } }
-
         // Constant for maximum speed.
         public const int MaxSpeed = 100;
 
@@ -101,5 +97,10 @@ namespace ComparableCar
             else
                 throw new ArgumentException("Parameter is not a Car!");
         }
+
+        // Property to return the PetNameComparer.
+        public static IComparer SortByPetName
+        { get { return MyComp; } }
+        private static IComparer MyComp = new PetNameComparer();
     }
 }

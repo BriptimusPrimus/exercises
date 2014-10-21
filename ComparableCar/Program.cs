@@ -35,6 +35,8 @@ namespace ComparableCar
                 Console.WriteLine("{0} {1}", c.CarID, c.PetName);
             Console.WriteLine();
 
+            Array.Sort(myAutos, new PetNameComparer());
+
             // Sorting by pet name made a bit cleaner.
             Array.Sort(myAutos, Car.SortByPetName);
 
