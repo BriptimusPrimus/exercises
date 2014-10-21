@@ -393,6 +393,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithObservableCollection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericMethods", "CustomGenericMethods\CustomGenericMethods.csproj", "{958D2D8B-B0D4-4EB5-8B2C-E1457E025202}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPoint", "GenericPoint\GenericPoint.csproj", "{453C2E77-7B62-4DBF-AF92-157021E4302C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2063,6 +2065,16 @@ Global
 		{958D2D8B-B0D4-4EB5-8B2C-E1457E025202}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{958D2D8B-B0D4-4EB5-8B2C-E1457E025202}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{958D2D8B-B0D4-4EB5-8B2C-E1457E025202}.Release|x86.ActiveCfg = Release|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{453C2E77-7B62-4DBF-AF92-157021E4302C}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2261,5 +2273,6 @@ Global
 		{89DD4CA6-7639-4511-A3B0-E6BC84D88E12} = {4F385B4B-8215-4DCF-9BC1-BA0823164474}
 		{71960D97-CFAC-4F3B-9ABD-B92E81F706E8} = {4F385B4B-8215-4DCF-9BC1-BA0823164474}
 		{958D2D8B-B0D4-4EB5-8B2C-E1457E025202} = {4F385B4B-8215-4DCF-9BC1-BA0823164474}
+		{453C2E77-7B62-4DBF-AF92-157021E4302C} = {4F385B4B-8215-4DCF-9BC1-BA0823164474}
 	EndGlobalSection
 EndGlobal
