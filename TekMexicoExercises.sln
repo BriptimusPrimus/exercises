@@ -399,6 +399,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Delegates, Events, and L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDelegate", "SimpleDelegate\SimpleDelegate.csproj", "{A526299C-C8DE-43AB-81EF-F329BC316BEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDelegate", "CarDelegate\CarDelegate.csproj", "{94FE9F00-0706-422A-B781-F835BBBAFE87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2089,6 +2091,16 @@ Global
 		{A526299C-C8DE-43AB-81EF-F329BC316BEF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A526299C-C8DE-43AB-81EF-F329BC316BEF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A526299C-C8DE-43AB-81EF-F329BC316BEF}.Release|x86.ActiveCfg = Release|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{94FE9F00-0706-422A-B781-F835BBBAFE87}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2290,5 +2302,6 @@ Global
 		{958D2D8B-B0D4-4EB5-8B2C-E1457E025202} = {4F385B4B-8215-4DCF-9BC1-BA0823164474}
 		{453C2E77-7B62-4DBF-AF92-157021E4302C} = {4F385B4B-8215-4DCF-9BC1-BA0823164474}
 		{A526299C-C8DE-43AB-81EF-F329BC316BEF} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
+		{94FE9F00-0706-422A-B781-F835BBBAFE87} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 	EndGlobalSection
 EndGlobal
