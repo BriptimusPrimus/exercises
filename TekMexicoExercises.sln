@@ -405,6 +405,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDelegateMethodGroupConve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegate", "GenericDelegate\GenericDelegate.csproj", "{984D8647-AD48-496A-8AE4-A1D3DF44DABE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionAndFuncDelegates", "ActionAndFuncDelegates\ActionAndFuncDelegates.csproj", "{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2125,6 +2127,16 @@ Global
 		{984D8647-AD48-496A-8AE4-A1D3DF44DABE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{984D8647-AD48-496A-8AE4-A1D3DF44DABE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{984D8647-AD48-496A-8AE4-A1D3DF44DABE}.Release|x86.ActiveCfg = Release|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2329,5 +2341,6 @@ Global
 		{94FE9F00-0706-422A-B781-F835BBBAFE87} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 		{1DA02FA8-20B1-4156-A75B-831B413350F4} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 		{984D8647-AD48-496A-8AE4-A1D3DF44DABE} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
+		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 	EndGlobalSection
 EndGlobal
