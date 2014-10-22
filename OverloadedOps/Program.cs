@@ -52,6 +52,11 @@ namespace OverloadedOps
             Console.WriteLine("ptSix++ = {0}", ptSix++);  // [20, 20]
             Console.WriteLine("ptSix-- = {0}", ptSix--);  // [21, 21]
 
+            Console.WriteLine("ptOne == ptTwo : {0}", ptOne == ptTwo);
+            Console.WriteLine("ptOne != ptTwo : {0}", ptOne != ptTwo);
+
+            Console.WriteLine("ptOne < ptTwo : {0}", ptOne < ptTwo);
+            Console.WriteLine("ptOne > ptTwo : {0}", ptOne > ptTwo);
             Console.ReadLine();
         }
     }
