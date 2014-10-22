@@ -413,6 +413,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimAndProperCarEvents", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPrimAndProperCarEvents", "GenericPrimAndProperCarEvents\GenericPrimAndProperCarEvents.csproj", "{3C3CE0FD-9D2E-42A6-943B-9D9A63BD76FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethods", "AnonymousMethods\AnonymousMethods.csproj", "{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2173,6 +2175,16 @@ Global
 		{3C3CE0FD-9D2E-42A6-943B-9D9A63BD76FA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{3C3CE0FD-9D2E-42A6-943B-9D9A63BD76FA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{3C3CE0FD-9D2E-42A6-943B-9D9A63BD76FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2381,5 +2393,6 @@ Global
 		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 		{82BE2EB8-0AA8-440D-8EC9-DE64D6479A16} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 		{3C3CE0FD-9D2E-42A6-943B-9D9A63BD76FA} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
+		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 	EndGlobalSection
 EndGlobal
