@@ -431,6 +431,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConversions", "Custom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{5DA6CEBF-C63B-4EB5-88E4-DDB9BABAC37E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExtensions", "InterfaceExtensions\InterfaceExtensions.csproj", "{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2271,6 +2273,16 @@ Global
 		{5DA6CEBF-C63B-4EB5-88E4-DDB9BABAC37E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{5DA6CEBF-C63B-4EB5-88E4-DDB9BABAC37E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5DA6CEBF-C63B-4EB5-88E4-DDB9BABAC37E}.Release|x86.ActiveCfg = Release|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2488,5 +2500,6 @@ Global
 		{3544D0F1-AA18-468A-9AF3-C16E7DD4F3C1} = {C4EE4906-49F6-4AD6-BAA6-9FB79C615B9E}
 		{BA179D8C-7D11-4BB1-833B-16393FCDB32E} = {C4EE4906-49F6-4AD6-BAA6-9FB79C615B9E}
 		{5DA6CEBF-C63B-4EB5-88E4-DDB9BABAC37E} = {C4EE4906-49F6-4AD6-BAA6-9FB79C615B9E}
+		{3717A42E-B2FC-40B5-93FF-3EC6588FE4C0} = {C4EE4906-49F6-4AD6-BAA6-9FB79C615B9E}
 	EndGlobalSection
 EndGlobal
