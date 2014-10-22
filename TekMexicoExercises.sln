@@ -415,6 +415,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPrimAndProperCarEven
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethods", "AnonymousMethods\AnonymousMethods.csproj", "{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLambdaExpressions", "SimpleLambdaExpressions\SimpleLambdaExpressions.csproj", "{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2185,6 +2187,16 @@ Global
 		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2394,5 +2406,6 @@ Global
 		{82BE2EB8-0AA8-440D-8EC9-DE64D6479A16} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 		{3C3CE0FD-9D2E-42A6-943B-9D9A63BD76FA} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 		{B2C8EFA9-C51C-4EFB-8C5E-708B2FB297D7} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
+		{5AA832ED-0F5E-45A2-9792-CEC26FDB96C9} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 	EndGlobalSection
 EndGlobal
