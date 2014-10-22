@@ -407,6 +407,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegate", "GenericD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionAndFuncDelegates", "ActionAndFuncDelegates\ActionAndFuncDelegates.csproj", "{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarEvents", "CarEvents\CarEvents.csproj", "{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2137,6 +2139,16 @@ Global
 		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9}.Release|x86.ActiveCfg = Release|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2342,5 +2354,6 @@ Global
 		{1DA02FA8-20B1-4156-A75B-831B413350F4} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 		{984D8647-AD48-496A-8AE4-A1D3DF44DABE} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 		{05B2B6AA-727D-42BB-9C8B-DFD9F807D8E9} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
+		{28D3CE76-7C0E-41EE-A8E2-018BDC8FB500} = {157F94D8-8950-4136-B3F1-6039DD3D6E8C}
 	EndGlobalSection
 EndGlobal
