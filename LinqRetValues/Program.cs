@@ -18,6 +18,11 @@ namespace LinqRetValues
                 Console.WriteLine(item);
             }
 
+            foreach (string item in GetStringSubsetAsArray())
+            {
+                Console.WriteLine(item);
+            }
+
             Console.ReadLine();
         }
 
@@ -33,5 +38,39 @@ namespace LinqRetValues
 
             return theRedColors;
         }
+
+        static string[] GetStringSubsetAsArray()
+        {
+            string[] colors = {"Light Red", "Green",
+                "Yellow", "Dark Red", "Red", "Purple"};
+
+            var theRedColors = from c in colors
+                               where c.Contains("Red")
+                               select c;
+
+            // Map results into an array.
+            return theRedColors.ToArray();
+        }
+
+        class LINQBasedFieldsAreClunky
+        {
+            private static string[] currentVideoGames = {"Morrowind", "Uncharted 2",
+                "Fallout 3", "Daxter", "System Shock 2"};
+
+            // Can't use implicit typing here! Must know type of subset!
+            private IEnumerable<string> subset = from g in currentVideoGames
+                                                 where g.Contains(" ")
+                                                 orderby g
+                                                 select g;
+
+            public void PrintGames()
+            {
+                foreach (var item in subset)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+        }
+
     }
 }
