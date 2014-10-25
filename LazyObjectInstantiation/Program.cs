@@ -72,4 +72,19 @@ namespace LazyObjectInstantiation
         }
     }
 
+    public struct STR 
+    {
+        int x;
+        int y;
+    }
+
+    public struct STR2 : ICloneable
+    {
+        int z;
+
+        object ICloneable.Clone()
+        {
+            return this;
+        }
+    }
 }
