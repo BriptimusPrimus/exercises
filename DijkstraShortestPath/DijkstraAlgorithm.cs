@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace DijkstraShortestPath
 {
     // Finds shortest path to every node from a source in the graph
+    // http://en.wikipedia.org/wiki/Dijkstra's_algorithm
     // In this version all edge cost are equals one, therefore 
     // the distance between neighbors is the same in all cases
     class DijkstraAlgorithm
