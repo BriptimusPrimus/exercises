@@ -6,8 +6,19 @@ using System.Threading.Tasks;
 
 namespace MergeSort
 {
+    // Interfaces cannot contain operators
+    public interface IComparableNode : IComparable
+    {
+        //static bool operator <(IComparableNode n1, IComparableNode n2);
 
-    class IntegerNode : IComparable<IntegerNode>
+        //static bool operator >(IComparableNode n1, IComparableNode n2);
+
+        //static bool operator <=(IComparableNode n1, IComparableNode n2);
+
+        //static bool operator >=(IComparableNode n1, IComparableNode n2);
+    }
+
+    class IntegerNode : IComparableNode
     {
         public int Value { get; set; }
 
@@ -17,8 +28,9 @@ namespace MergeSort
         }
 
         // implement IComparable
-        public int CompareTo(IntegerNode other)
+        public int CompareTo(object obj)
         {
+            IntegerNode other = obj as IntegerNode;
             if (this.Value > other.Value)
                 return 1;
             if (this.Value < other.Value)

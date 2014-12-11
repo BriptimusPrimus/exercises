@@ -9,10 +9,10 @@ namespace MergeSort
 
     //// http://en.wikipedia.org/wiki/Merge_sort
 
-    class MergeSortAlgorithm
+    static class MergeSortAlgorithm
     {
 
-        public static LinkedList<IntegerNode> MergeSort(LinkedList<IntegerNode> list)
+        public static LinkedList<int> MergeSort(LinkedList<int> list)
         {
             // Base case. A list of zero or one elements is sorted, by definition.
             if (list.Count <= 1)
@@ -21,8 +21,8 @@ namespace MergeSort
             }
 
             // Recursive case. First, *divide* the list into equal-sized sublists.
-            LinkedList<IntegerNode> left = new LinkedList<IntegerNode>();
-            LinkedList<IntegerNode> right = new LinkedList<IntegerNode>();
+            LinkedList<int> left = new LinkedList<int>();
+            LinkedList<int> right = new LinkedList<int>();
             int middle = list.Count / 2;
 
             // for each x in list before middle, add x to left 
@@ -47,9 +47,9 @@ namespace MergeSort
             return merge(left, right);            
         }
 
-        public static LinkedList<IntegerNode> merge(LinkedList<IntegerNode> left, LinkedList<IntegerNode> right) 
+        public static LinkedList<int> merge(LinkedList<int> left, LinkedList<int> right) 
         {
-            LinkedList<IntegerNode> result = new LinkedList<IntegerNode>();
+            LinkedList<int> result = new LinkedList<int>();
 
             //// assign the element of the sublists to 'result' variable until there is no element to merge. 
             //while notempty(left) or notempty(right)
@@ -91,6 +91,14 @@ namespace MergeSort
             return result;
         }
 
+        public static void PrintDataAndBeep(this System.Collections.IEnumerable iterator)
+        {
+            foreach (var item in iterator)
+            {
+                Console.WriteLine(item);
+                Console.Beep();
+            }
+        }
 
     }
 }

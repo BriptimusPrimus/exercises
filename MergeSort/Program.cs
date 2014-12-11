@@ -12,23 +12,9 @@ namespace MergeSort
         {
             Console.WriteLine("******************Merge Sort Algorithm******************");
 
-            IntegerNode[] unordered = { 
-                new IntegerNode(3),
-                new IntegerNode(8),
-                new IntegerNode(6),
-                new IntegerNode(1),
-                new IntegerNode(7),
+            int[] unordered = { 3, 8, 6, 1, 7, 0, 9, 2, 5, 7, 4 };
 
-                new IntegerNode(0),
-
-                new IntegerNode(9),
-                new IntegerNode(2),
-                new IntegerNode(5),
-                new IntegerNode(7),
-                new IntegerNode(4),
-            };
-
-            LinkedList<IntegerNode> list = new LinkedList<IntegerNode>(unordered);
+            LinkedList<int> list = new LinkedList<int>(unordered);
 
             Console.WriteLine("Unordered List: ");
             PrintList(list);
