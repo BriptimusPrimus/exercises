@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Factorial
 {
+    //Write a factorial function in an iterative and recursive way.
     class Program
     {
         static void Main(string[] args)
