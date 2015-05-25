@@ -22,6 +22,7 @@ namespace DigitsSum5
             Console.WriteLine("1 - 200: "); PrintListValues<int>(NumbersWhoseDigitsSumFive(1, 200));
             Console.WriteLine("0 - 1: "); PrintListValues<int>(NumbersWhoseDigitsSumFive(0, 1));
             Console.WriteLine("6 - 5: "); PrintListValues<int>(NumbersWhoseDigitsSumFive(6, 5));
+            Console.WriteLine("100 - 113: "); PrintListValues<int>(NumbersWhoseDigitsSumFive(100, 113));
 
             Console.ReadLine();
         }
@@ -29,7 +30,7 @@ namespace DigitsSum5
         static List<int> NumbersWhoseDigitsSumFive(int i, int j)
         {
             List<int> result = new List<int>();
-            for (int n = i; n < j; n++)
+            for (int n = i; n <= j; n++)
             { 
                 int number = n;
                 //Console.WriteLine("num = {0}", number);
