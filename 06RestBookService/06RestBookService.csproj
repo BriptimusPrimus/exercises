@@ -66,7 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BookService.svc" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.cs" />

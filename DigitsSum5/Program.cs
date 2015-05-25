@@ -34,7 +34,7 @@ namespace DigitsSum5
                 int number = n;
                 //Console.WriteLine("num = {0}", number);
 
-                int acumulator = 0;
+                int acumulator = 0; 
                 while(number > 0 && acumulator < 5)
                 {                    
                     acumulator += number % 10;
